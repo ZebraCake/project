@@ -1,0 +1,10 @@
+{
+  "name": "samoylov/blog",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "App\\Helper\\": "app/helper/",
+      "App\\Auth\\": "app/auth"
+    }
+  }
+}
