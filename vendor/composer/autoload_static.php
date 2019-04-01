@@ -10,6 +10,7 @@ class ComposerStaticInitc206e2f13ad84bdeb811db1cf7e50df4
         'A' => 
         array (
             'App\\Helper\\' => 11,
+            'App\\Database\\' => 13,
             'App\\Auth\\' => 9,
             'App\\' => 4,
         ),
@@ -19,6 +20,10 @@ class ComposerStaticInitc206e2f13ad84bdeb811db1cf7e50df4
         'App\\Helper\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app/helper',
+        ),
+        'App\\Database\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/database',
         ),
         'App\\Auth\\' => 
         array (

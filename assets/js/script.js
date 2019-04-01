@@ -27,4 +27,40 @@ $(document).ready(function() {
         $('#main-container').css({"margin-top": "65px"});
         $('.close-header').fadeOut(300).css({"display": "none"});
     });
+
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            $('#header-container').addClass("sticky");
+        }
+        else{
+            $('#header-container').removeClass("sticky");
+        }
+    });
+
+        //
+        // // Длительность анимации появления
+        // transitionDuration: 300,
+        //
+        // // Включает тень у шапки
+        // shadow: true,
+        //
+        // // Прозрачность тени у шапки
+        // shadowOpacity: 0.3,
+        //
+        // // Включение анимации при появлении шапки
+        // animate: true,
+        //
+        // // true: Шапка прилипнет к верху когда окно браузера будет достигнут центр страницы
+        // // false: Шапка прилипнет к верху как только пропадет из поля зрения при скролинге страницы
+        // triggerAtCenter: false,
+        //
+        // //  Шапка прилипнет к верху при пролистывании страницы на 200 пикселей
+        // topOffset: 300,
+        //
+        // // Плавное появление 'fade' или скольжение при появлении 'slide'
+        // transitionStyle: 'slide',
+        //
+        // //  Шапка прикреплена к верху при загрузке страницы
+        // stickyAlready: false
+
 });

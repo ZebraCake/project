@@ -21,6 +21,7 @@ class User
 
     public function isAuth()
     {
+
         if($this->user_id !==null) return true;
 
         if(
@@ -59,7 +60,7 @@ class User
             $_SESSION['user'] = [
                 'login' => $this->login,
                 'user_id' => $this->user_id,
-                'token' => $this->token
+                'token' => $this->token,
             ];
         }
     }
