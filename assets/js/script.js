@@ -15,7 +15,6 @@ $(document).ready(function() {
         $('header').css({"flex-direction": "column"});
         $('nav ul').fadeIn(300).css({"display": "flex",
         "margin-top": "10px"});
-        $('#main-container').css({"margin-top": "90px"});
         $('.close-header').fadeIn(500).css({"display": "block"});
     });
 
